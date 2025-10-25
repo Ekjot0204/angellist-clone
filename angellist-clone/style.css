@@ -1,0 +1,224 @@
+/* QUICK CSS RESET */
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Define your brand colors */
+:root {
+    --color-primary-dark: #002b31; 
+    --color-accent-blue: #5f58ff; 
+    --color-text-light: #525252;
+    --color-background-light: #f7f7f7;
+    --max-width: 1200px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--color-primary-dark);
+    line-height: 1.6;
+}
+
+/* Container to center content and set max width */
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto; /* Centers the container */
+    padding: 0 1.5rem; /* Padding on the sides for mobile */
+}
+
+h1 {
+    font-size: 3rem; 
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem; 
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+header {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Flexbox for Nav: Separates three content groups */
+nav {
+    display: flex;
+    justify-content: space-between; /* Pushes logo left, links/buttons right */
+    align-items: center;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none; 
+    display: flex; /* Makes list items horizontal */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--color-text-light);
+    padding: 0 1rem;
+    font-weight: 500;
+    transition: color 0.2s; /* Smooth hover effect */
+}
+nav ul li a:hover {
+    color: var(--color-primary-dark);
+}
+
+/* Action Buttons Container */
+.nav-buttons {
+    display: flex; 
+    align-items: center;
+}
+
+/* Primary Button (Sign Up) */
+.btn-primary {
+    background-color: var(--color-accent-blue);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: 1rem;
+    transition: background-color 0.2s;
+}
+.btn-primary:hover {
+    background-color: #4a45e0; 
+}
+
+/* Secondary Button (Sign In) */
+.btn-secondary {
+    background: none;
+    color: var(--color-text-light);
+    border: 1px solid var(--color-text-light);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hero Section - The First Impression */
+#hero {
+    text-align: center;
+    padding: 6rem 0; 
+    background-color: var(--color-background-light); 
+}
+
+/* Hero CTA Button - Make it bigger and bolder */
+.btn-primary-hero {
+    background-color: var(--color-accent-blue);
+    color: white;
+    border: none;
+    padding: 1rem 2rem; 
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}.btn-primary-hero:hover {
+    background-color: #4a45e0; 
+}
+
+/* Feature Grid Layout */
+#features {
+    padding: 4rem 0;
+    text-align: center; /* Centers the h2 title */
+}
+
+.feature-grid {
+    display: grid;
+    /* Create three equal columns */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 3rem; /* Space between the columns */
+    margin-top: 2rem;
+    text-align: left; /* Reset text alignment for the individual feature items */
+}
+
+.feature-item h3 {
+    color: var(--color-primary-dark);
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: var(--color-primary-dark);
+    color: #ccc;
+    font-size: 0.8rem;
+}
+
+.copyright {
+    margin-top: 1rem;
+    color: #999;
+}
+
+footer {
+    padding: 3rem 0;
+    text-align: center;
+    background-color: var(--color-primary-dark);
+    color: #ccc;
+    font-size: 0.8rem;
+}
+
+/* ⬅️ ADD THE CODE HERE */
+footer .container {
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 1rem;
+    color: #999;
+}
+
+button, 
+a {
+    cursor: pointer;
+}
+
+/* --- START MOBILE MEDIA QUERY (for screens 768px wide or less) --- */
+@media (max-width: 768px) {
+    /* All mobile-specific styles go inside this block */
+    
+    /* 1. Adjust Hero Text Size */
+    #hero h1 {
+        font-size: 2rem; /* Make the headline smaller on phones */
+    }
+
+    /* 2. Fix the Navigation Bar */
+    /* Hide the desktop navigation links (Invest, Recruit, etc.) */
+    nav ul {
+        display: none; 
+    }
+
+    /* Stack the Logo and the Buttons */
+    nav {
+        /* This ensures space-between still works but only for the visible elements */
+        justify-content: space-around; 
+    }
+    
+    /* 3. Collapse the Feature Grid */
+    /* Change the 3-column layout into a single column for readability */
+    .feature-grid {
+        grid-template-columns: 1fr; /* 1 fractional unit wide */
+        gap: 2rem; 
+        text-align: center; /* Center the feature content on mobile */
+    }
+
+    /* 4. Center Feature Headings */
+    .feature-item h3 {
+        text-align: center;
+    }
+
+    /* 5. Adjust Global Padding */
+    .container {
+        padding: 0 1rem; /* Use slightly less padding on phone sides */
+    }
+}
+/* --- END MOBILE MEDIA QUERY --- */

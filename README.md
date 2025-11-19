@@ -1,110 +1,76 @@
-# AngelList Clone
+AngelList Clone
 
-A front-end clone of the AngelList homepage, built using **HTML**, **CSS**, and **JavaScript**.  
-This project recreates the UI and basic interactions of AngelList using only client-side code.
+A simple front-end clone of the AngelList website built using HTML, CSS, and JavaScript.
+This project replicates the layout, UI structure, and basic interactions of AngelList to practice front-end development skills.
 
----
+Live Demo
 
-## 🚀 Live Demo
-View the live version of the project here:  
-👉 **https://your-live-demo-link.com**
+👉 https://ekjot0204.github.io/angellist-clone/
 
-*(Replace the link above with your GitHub Pages / Netlify link.)*
+Features
 
----
+Fully responsive UI
 
-## 🖼️ Screenshots
+Clean and modern layout inspired by AngelList
 
-### 📌 Homepage
-![Homepage Screenshot](assets/homepage.png)
+Navigation bar with dropdown
 
-### 📌 Job Cards Section
-![Job Cards](assets/jobcards.png)
+Job listings section
 
-### 📌 Navigation Bar
-![Navbar Screenshot](assets/navbar.png)
+Startup showcase section
 
-> Store your screenshots inside an `assets/` folder and replace the file names above.
+Smooth scrolling & interactive elements using vanilla JS
 
----
-
-## 🔍 Project Overview
-
-This project is a static clone of the AngelList landing UI. It focuses on clean layout, responsiveness, and UI components.  
-There is **no backend** — everything is purely front-end.
-
----
-
-## 💻 Features
-
-- Responsive homepage using HTML & CSS  
-- AngelList-style layout and components  
-- Dynamic interaction with JavaScript  
-- Job/startup style cards  
-- Clean UI with hover effects and transitions  
-- Mobile-friendly
-
----
-
-## 📁 Project Structure
-
-angellist-clone/
-│
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-├── homepage.png
-├── jobcards.png
-└── navbar.png
-
-
----
-
-## 🚀 Run Locally
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Ekjot0204/angellist-clone.git
-
-   
-Open the folder:
-
-cd angellist-clone
-
-Open index.html in your browser
-(or use Live Server in VSCode)
-
-📐 Tech Stack
+Tech Stack
 
 HTML5
 
-CSS3
+CSS3 (Flexbox, Grid)
 
-JavaScript (ES6)
+JavaScript (Vanilla JS)
 
-No frameworks or libraries.
+Project Structure
+angellist-clone/
+│── index.html
+│── style.css
+│── script.js
+│── images/
+│     ├── homepage.png
+│     ├── jobs.png
+│     └── login.png
+└── README.md
 
-🔧 Future Enhancements
+Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/Ekjot0204/angellist-clone.git
+2️⃣ Open the project
 
-Add backend (Node.js / Express)
+Open index.html in any browser.
 
-Add real job data
+License
 
-Implement login/signup
+This project is licensed under the MIT License.
+MIT License
 
-Add search filters
+© 2025 Ekjot
 
-Improve animations
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-👤 Author
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-Ekjot
-GitHub: https://github.com/Ekjot0204
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
-📜 License
+© Copyright
 
-This project is open source and free to use.
-
-
-
+© 2025 Ekjot. All rights reserved.

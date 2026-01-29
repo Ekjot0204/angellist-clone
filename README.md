@@ -5,7 +5,7 @@ This project replicates the layout, UI structure, and basic interactions of Ange
 
 Live Demo
 
-👉 https://ekjot0204.github.io/angellist-clone/
+👉 [https://ekjot0204.github.io/angellist-clone/](https://ekjot0204.github.io/angellist-clone/)
 
 Repository
 

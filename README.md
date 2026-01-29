@@ -7,6 +7,20 @@ Live Demo
 
 👉 https://ekjot0204.github.io/angellist-clone/
 
+Repository
+
+https://github.com/Ekjot0204/angellist-clone
+
+Screenshots
+
+Profile page
+
+<img width="1703" height="843" alt="image" src="https://github.com/user-attachments/assets/f63ab6ba-953d-493c-a165-b3097d1423ba" />
+
+Home page
+
+<img width="1877" height="902" alt="Screenshot 2026-01-29 104029" src="https://github.com/user-attachments/assets/337ba5d9-95c3-4f64-9cd6-84ad399f24c6" />
+
 Features
 
 Fully responsive UI
@@ -46,6 +60,21 @@ git clone https://github.com/Ekjot0204/angellist-clone.git
 2️⃣ Open the project
 
 Open index.html in any browser.
+
+Learning Outcomes
+
+Improved understanding of responsive layouts
+
+Hands-on practice with Flexbox and CSS Grid
+
+Better grasp of DOM manipulation using JavaScript
+
+Experience replicating real-world UI designs
+
+Disclaimer
+
+This project is created for educational and learning purposes only.
+AngelList is a registered trademark, and this project is not affiliated with or endorsed by AngelList.
 
 License
 

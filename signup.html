@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up | AngelList Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="auth-container">
+    <h2>Create your account</h2>
+
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email address" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <input type="password" id="confirmPassword" placeholder="Confirm Password" required />
+
+      <button type="submit" class="btn-primary">Sign Up</button>
+    </form>
+
+    <p class="auth-text">
+      Already have an account?
+      <a href="login.html">Sign in</a>
+    </p>
+
+    <p id="errorMsg" class="error"></p>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

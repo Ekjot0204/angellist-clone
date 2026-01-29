@@ -29,16 +29,16 @@ CSS3 (Flexbox, Grid)
 
 JavaScript (Vanilla JS)
 
-Project Structure
-angellist-clone/
-│── index.html
-│── style.css
-│── script.js
-│── images/
-│     ├── homepage.png
-│     ├── jobs.png
-│     └── login.png
-└── README.md
+Project Structure                                                                                                                                                                                                    
+angellist-clone/                                                                                                                                                                                                     
+│── index.html                                                                                                                                                                                                       
+│── style.css                                                                                                                                                                                                        
+│── script.js                                                                                                                                                                                                        
+│── images/                                                                                                                                                                                                          
+│     ├── homepage.png                                                                                                                                                                                               
+│     ├── jobs.png                                                                                                                                                                                                   
+│     └── login.png                                                                                                                                                                                                  
+└── README.md                                                                                                                                                                                                        
 
 Getting Started
 1️⃣ Clone the repository
